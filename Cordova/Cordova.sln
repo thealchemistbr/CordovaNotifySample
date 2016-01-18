@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "LocalNote1", "..\..\..\..\Documents\Visual Studio 2015\Projects\LocalNote1\LocalNote1\LocalNote1.jsproj", "{A01D5407-17EF-44BA-BF58-2C630628C9D0}"
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "LocalNote1", "LocalNote1\LocalNote1.jsproj", "{A01D5407-17EF-44BA-BF58-2C630628C9D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

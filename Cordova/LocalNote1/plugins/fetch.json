@@ -1,0 +1,68 @@
+{
+    "de.appplant.cordova.plugin.local-notification": {
+        "source": {
+            "type": "local",
+            "path": "C:\\Users\\p017068\\Downloads\\cordova-plugin-local-notifications-master\\cordova-plugin-local-notifications-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-registerusernotificationsettings": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-registerusernotificationsettings"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-dialogs": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-dialogs"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.phonegap.plugins.PushPlugin": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phonegap-build/PushPlugin.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-admobpro": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/floatinghotpot/cordova-admob-pro.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-extension": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-extension"
+        },
+        "is_top_level": false,
+        "variables": {}
+    }
+}

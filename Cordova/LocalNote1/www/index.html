@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <title>LocalNote1</title>
+
+    <!-- LocalNote1 references -->
+    <link href="css/index.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+
+    <table style="border: solid green 2px;">
+
+        <tr style="height: 100%;">
+
+            <td>
+                <div style="overflow: auto">
+                    <p>Hello, your application is ready!</p>
+
+                    <p>Press the button below to schedule a reminder =)</p>
+
+                    <p>
+                        <div id="granted" style="width: 100%; border: 2px solid red;"></div>
+                    </p>
+
+                    <p>
+                        <div id="token" style="width: 100%; border: 2px solid red;"></div>
+                    </p>
+
+                    <p>
+                        <div id="message" style="width: 100%; border: 2px solid red;"></div>
+                    </p>
+
+                    <input type="button" value="Reminder" id="btn" />
+
+                    <input type="button" value="Reminder 2" id="btn2" />
+                </div>
+
+            </td>
+
+        </tr>
+        
+        <tr>
+            <td>
+                <div id="footer">
+                    <input type="text" id="msg" style="width: 70%;" />
+                    <input type="button" id="send" value=">>" />
+                </div>
+            </td>
+        </tr>
+
+    </table>
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>

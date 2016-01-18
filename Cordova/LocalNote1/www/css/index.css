@@ -1,0 +1,13 @@
+﻿body {
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+#footer {
+    height:30px;
+    margin: 0;
+    clear: both;
+    width:100%;
+    position: relative;
+    border: 2px solid red;
+}
