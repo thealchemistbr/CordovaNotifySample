@@ -3,6 +3,26 @@
 // To debug code on page load in Ripple or on Android devices/emulators: launch your app, set breakpoints, 
 // and then run "window.location.reload()" in the JavaScript Console.
 
+var myWhats = angular.module('myWhats', ['ngMaterial'])
+.config(function ($mdThemingProvider) {
+    $mdThemingProvider.theme('default')
+    .primaryPalette('green')
+    .accentPalette('orange');
+});
+
+myWhats.controller('myData', function ($scope) {
+    $scope.people = [
+  { name: 'A', phone: '111' },
+  { name: 'B', phone: '222' },
+  { name: 'C', phone: '333' },
+  { name: 'D', phone: '444' },
+  { name: 'E', phone: '555' },
+  { name: 'E', phone: '555' },
+  { name: 'E', phone: '555' },
+  { name: 'E', phone: '555' }
+    ]
+});
+
 (function () {
     "use strict";
 
@@ -29,13 +49,13 @@
             $("#token").html("Error registering..." + err);
         }, androidOptions);
 
-        if (AdMob) {
+        /* if (AdMob) {
              AdMob.createBanner({
                  adId: 'ca-app-pub-3940256099942544/6300978111',
                  position: AdMob.AD_POSITION.TOP_CENTER,
                  autoShow: true
             });
-        }
+        } */
         
 
         //document.getElementById("btn").addEventListener('click', add_reminder());
